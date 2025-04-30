@@ -144,6 +144,13 @@
       </resource>
     </resources>
   </build>
+  
+  <distributionManagement>
+    <site>
+        <id>local</id>
+        <url>file:${project.build.directory}/site</url>
+    </site>
+  </distributionManagement>
 
   <profiles>
     <!-- Development profile (active by default) -->
