@@ -15,6 +15,7 @@ stage('Test') {
 steps {
 sh 'mvn test -Dmaven.test.failure.ignore=true'
 }
+
 }
 stage('PMD') {
 steps {
